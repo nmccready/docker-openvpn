@@ -35,4 +35,6 @@ fi
 
 conf="$OPENVPN/openvpn.conf"
 
+bridge-start
+
 exec openvpn --config "$conf"
